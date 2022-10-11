@@ -1,8 +1,8 @@
-.Header img {
+.logo {
     width: 60px;
 }
 
-.Header {
+.header {
     background-color: antiquewhite;
     height: 60px;
     display: flex;
@@ -12,7 +12,7 @@
     grid-area: h;
 }
 
-.Header__menu {
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,7 +21,7 @@
     margin-right: 10vw;
 }
 
-.Header__button {
+.button {
     border-style: none;
     background-color: antiquewhite;
     cursor: pointer;
@@ -29,7 +29,7 @@
     font-size: 20px;
 }
 
-.Header__button:hover {
+.button:hover {
     background-color: bisque;
     
 }
