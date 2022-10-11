@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    grid-area: n;
+    margin-top: 10vh;
+    margin: 10vh 2vw;
+}
+
+.navbar__button {
+    border-style: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.navbar__button:hover {
+    text-decoration-line: underline;
+    background-color: bisque;
+}
