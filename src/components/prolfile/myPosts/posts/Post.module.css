@@ -1,0 +1,9 @@
+.posts img {
+    width: 30px;
+    height: 35px;
+    border-radius: 30px;
+}
+.item {
+    display: flex;
+    align-items: center;
+}
