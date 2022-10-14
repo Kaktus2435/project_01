@@ -1,21 +1,21 @@
 import React from "react";
-
+import s from './nav.module.css';
 const Nav = () => {
     return (
-        <div className="navbar">
-            <button className="navbar__button">
+        <div className={s.navbar}>
+            <button className={s.button}>
                 Home
             </button>
-            <button className="navbar__button">
+            <button className={s.button}>
                 Profile
             </button>
-            <button className="navbar__button">
+            <button className={s.button}>
                 Messages
             </button>
-            <button className="navbar__button">
+            <button className={s.button}>
                 News
             </button>
-            <button className="navbar__button">
+            <button className={s.button}>
                 Settings
             </button>
         </div>

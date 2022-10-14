@@ -4,6 +4,6 @@
   grid-template-columns: 1fr 10fr;
   grid-template-areas:
     "h h"
-    "n home";
+    "n p";
 
 }
