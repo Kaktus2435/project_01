@@ -17,9 +17,6 @@ const Header = () => {
                     About
                 </button>
                 <button className={hed.button}>
-                    Profile
-                </button>
-                <button className={hed.button}>
                     Alerts
                 </button>
                 <button className={hed.button}>
